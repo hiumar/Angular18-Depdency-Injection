@@ -29,7 +29,7 @@ export class AppComponent implements OnInit {
   }
 
   save(course:Course){
-debugger
+
    if(course !=undefined)
       this.coursesService.saveCourse(course).subscribe(()=>console.log("course is saved"));
    }
